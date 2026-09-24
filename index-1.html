@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vardhan Agro Suppliers | Prayagraj</title>
+<meta name="description" content="Vardhan Agro Suppliers, Prayagraj — agricultural produce supply of sugarcane, wheat, rice and mustard.">
+<style>
+:root{--green:#174f2a;--green2:#2f7d32;--lime:#a7cf45;--cream:#f6f3e7;--dark:#142018;--muted:#647064;--white:#fff;--shadow:0 18px 45px rgba(20,40,25,.12)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--dark);background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1140px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid #e9eee7}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:11px;align-items:center;font-weight:800}
+.logo{width:42px;height:42px;border-radius:13px;background:var(--green);display:grid;place-items:center;color:#fff;font-size:21px}
+.brand small{display:block;color:var(--muted);font-weight:500;font-size:11px}
+.links{display:flex;gap:24px;font-size:14px;font-weight:650}
+.links a:hover{color:var(--green2)}
+.hero{min-height:650px;display:grid;align-items:center;background:linear-gradient(90deg,rgba(9,35,18,.82),rgba(9,35,18,.28)),url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero .container{padding:82px 0}
+.eyebrow{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#fff;padding:7px 12px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.5px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.02;color:#fff;max-width:780px;margin:18px 0}
+.hero p{color:#edf5eb;max-width:650px;font-size:18px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:13px 20px;border-radius:12px;font-weight:750;border:1px solid rgba(255,255,255,.4);color:#fff}
+.btn.primary{background:var(--lime);border-color:var(--lime);color:#173018}
+section{padding:88px 0}
+.sectionhead{max-width:700px;margin-bottom:35px}
+.kicker{color:var(--green2);font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:1.5px}
+.sectionhead h2{font-size:clamp(30px,4vw,48px);line-height:1.1;margin:8px 0 12px}
+.sectionhead p{color:var(--muted)}
+.about{background:var(--cream)}
+.aboutgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+.aboutimg{height:520px;border-radius:28px;background:url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1200&q=85') center/cover;box-shadow:var(--shadow)}
+.proprietors{margin-top:28px;display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.person{background:#fff;border:1px solid #e5eadf;border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
+.person img{width:100%;height:270px;object-fit:cover;object-position:center top;display:block;background:#fff}
+.personbody{padding:18px 20px 20px}
+.personbody .role{font-size:12px;text-transform:uppercase;letter-spacing:1.3px;color:var(--green2);font-weight:800}
+.personbody h3{margin:5px 0 0;font-size:21px}
+.checks{display:grid;gap:14px;margin-top:24px}
+.check{display:flex;gap:12px;align-items:flex-start}
+.check b{display:block}
+.dot{width:25px;height:25px;border-radius:50%;background:#dfeec0;color:var(--green);display:grid;place-items:center;font-weight:900;flex:none}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
+.stat{padding:24px;background:#fff;border-radius:18px;border:1px solid #e5eadf}
+.stat strong{font-size:30px;color:var(--green);display:block}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{border:1px solid #e7ece4;border-radius:20px;overflow:hidden;background:#fff;box-shadow:var(--shadow)}
+.card img{width:100%;height:190px;object-fit:cover}
+.cardbody{padding:20px}
+.card h3{margin:0 0 5px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.cred{background:var(--green);color:#fff}
+.credgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.credcard{padding:26px;border:1px solid rgba(255,255,255,.16);border-radius:20px;background:rgba(255,255,255,.07)}
+.credcard p{color:#dce9df;font-size:14px}
+.contact{background:#fafcf9}
+.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contactbox{padding:30px;border-radius:22px;background:#fff;border:1px solid #e5ece4;box-shadow:var(--shadow)}
+.row{display:flex;gap:15px;margin:17px 0}
+.icon{width:40px;height:40px;border-radius:12px;background:#e8f2df;display:grid;place-items:center}
+.row small{display:block;color:var(--muted)}
+.map{min-height:360px;border-radius:22px;background:linear-gradient(rgba(23,79,42,.1),rgba(23,79,42,.1)),url('https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80') center/cover}
+footer{background:#102218;color:#d8e4da;padding:30px 0}
+.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px}
+.note{color:#aebdb2}
+@media(max-width:900px){
+  .links{display:none}.cards{grid-template-columns:repeat(2,1fr)}
+  .aboutgrid,.contactgrid{grid-template-columns:1fr}.aboutimg{height:380px}
+  .credgrid{grid-template-columns:1fr}.hero{min-height:600px}
+}
+@media(max-width:650px){
+  .proprietors{grid-template-columns:1fr}
+  .person img{height:360px}
+}
+@media(max-width:560px){
+  section{padding:65px 0}.cards{grid-template-columns:1fr}.stats{grid-template-columns:1fr}
+  .hero p{font-size:16px}.hero .container{padding:65px 0}
+}
+</style>
+</head>
+<body>
+
+<nav><div class="container navin">
+<a class="brand" href="#top"><span class="logo">🌾</span><span>Vardhan Agro Suppliers<small>Prayagraj, Uttar Pradesh</small></span></a>
+<div class="links"><a href="#about">About</a><a href="#products">Products</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header id="top" class="hero"><div class="container">
+<span class="eyebrow">AGRICULTURAL SUPPLY • PRAYAGRAJ</span>
+<h1>From the field to dependable supply.</h1>
+<p>Vardhan Agro Suppliers is an agricultural produce supply firm based in Prayagraj, Uttar Pradesh, working across sugarcane, wheat, rice and mustard.</p>
+<div class="btns"><a class="btn primary" href="#contact">Contact Firm</a><a class="btn" href="#products">Explore Products</a></div>
+</div></header>
+
+<section id="about" class="about"><div class="container aboutgrid">
+<div class="aboutimg"></div>
+<div>
+<div class="sectionhead">
+<span class="kicker">About the firm</span>
+<h2>Built around agriculture, supply and long-term relationships.</h2>
+<p>Vardhan Agro Suppliers operates from Sarai Khani, Neoraha, Sujanganj, Prayagraj and focuses on the supply of key agricultural commodities.</p>
+</div>
+
+<div class="proprietors">
+  <article class="person">
+    <img src="harsh-vardhan-singh.png" alt="Harsh Vardhan Singh">
+    <div class="personbody"><div class="role">Proprietor</div><h3>Harsh Vardhan Singh</h3></div>
+  </article>
+  <article class="person">
+    <img src="pushpa-singh.png" alt="Pushpa Singh">
+    <div class="personbody"><div class="role">Proprietor</div><h3>Pushpa Singh</h3></div>
+  </article>
+</div>
+
+<div class="checks">
+<div class="check"><span class="dot">✓</span><div><b>Location</b>Prayagraj, Uttar Pradesh</div></div>
+<div class="check"><span class="dot">✓</span><div><b>Business focus</b>Agricultural produce supply and institutional procurement</div></div>
+</div>
+
+<div class="stats"><div class="stat"><strong>4</strong>Core commodities</div><div class="stat"><strong>5 Years</strong>Sugarcane contract term</div><div class="stat"><strong>UP</strong>Supply market</div></div>
+</div>
+</div></section>
+
+<section id="products"><div class="container">
+<div class="sectionhead"><span class="kicker">Our products</span><h2>Essential crops, supplied with care.</h2><p>Our core agricultural supply categories include the following commodities.</p></div>
+<div class="cards">
+<div class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/A_sugarcane_field.JPG"><div class="cardbody"><h3>Sugarcane</h3><p>Supply for institutional and sugar-mill requirements.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=900&q=80"><div class="cardbody"><h3>Wheat</h3><p>Quality-focused grain supply from agricultural sources.</p></div></div>
+<div class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rice_paddy_fields.jpg"><div class="cardbody"><h3>Rice</h3><p>Rice supply for institutional and commercial needs.</p></div></div>
+<div class="card"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mustard_field_near_Chandigarh.jpg"><div class="cardbody"><h3>Mustard</h3><p>Mustard and related agricultural produce supply.</p></div></div>
+</div></div></section>
+
+<section id="credentials" class="cred"><div class="container">
+<div class="sectionhead"><span class="kicker" style="color:#c7e878">Business credentials</span><h2>Long-term partnerships &amp; institutional work.</h2><p style="color:#dce9df">The firm’s profile includes the following business associations and certifications as provided by the firm.</p></div>
+<div class="credgrid">
+<div class="credcard"><h3>5-Year Sugarcane Agreement</h3><p>A five-year contract agreement for sugarcane supply with The Kishan Sahkari Chini Mil Pvt. Ltd.</p></div>
+<div class="credcard"><h3>FSSAI Certified</h3><p>FSSAI certification is stated for Vardhan Agro Suppliers in the firm profile.</p></div>
+<div class="credcard"><h3>Food Corporation of India</h3><p>The firm profile states work/association with the Food Corporation of India.</p></div>
+</div></div></section>
+
+<section id="contact" class="contact"><div class="container">
+<div class="sectionhead"><span class="kicker">Get in touch</span><h2>Let’s connect for agricultural supply.</h2></div>
+<div class="contactgrid"><div class="contactbox">
+<div class="row"><span class="icon">📍</span><div><small>Address</small>H-69, Sarai Khani, Neoraha, Sujanganj,<br>Prayagraj, UP - 211003</div></div>
+<div class="row"><span class="icon">✉</span><div><small>Email</small><a href="mailto:hs1233313@gmail.com">hs1233313@gmail.com</a></div></div>
+<div class="row"><span class="icon">☎</span><div><small>Contact</small><a href="tel:+917991431873">+91 79914 31873</a></div></div>
+</div><div class="map"></div></div></div></section>
+
+<footer><div class="container foot"><div><b>Vardhan Agro Suppliers</b><br><span class="note">Agricultural Produce Supply • Prayagraj, Uttar Pradesh</span></div><div>© 2026 Vardhan Agro Suppliers</div></div></footer>
+
+</body>
+</html>
